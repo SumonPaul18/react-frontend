@@ -31,6 +31,17 @@ This repository is designed for beginners to learn React.js through a hands-on n
 
 ## Installation
 
+### 0. Install Node.js & npm
+Open Terminal (Ctrl + Alt + T) and run below command:
+```bash
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+**Verify after installation:**
+```bash
+node --version
+npm --version
+```
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/learn-react-from-scratch.git

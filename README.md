@@ -44,8 +44,8 @@ npm --version
 ```
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/your-username/learn-react-from-scratch.git
-cd learn-react-from-scratch
+git clone https://github.com/SumonPaul18/react-frontend.git
+cd react-frontend
 ```
 
 ### 3. Set Up the Frontend (React)
@@ -106,7 +106,7 @@ docker-compose up
 
 ## Project Structure
 ```
-learn-react-from-scratch/
+react-frontend/
 ├── client/                       # React frontend
 │   ├── public/                   # Static assets
 │   │   ├── favicon.ico

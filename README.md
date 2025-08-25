@@ -31,7 +31,7 @@ This repository is designed for beginners to learn React.js through a hands-on n
 
 ## Installation
 
-### 0. Install Node.js & npm
+### 1. Install Node.js & npm
 Open Terminal (Ctrl + Alt + T) and run below command:
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
@@ -42,13 +42,13 @@ sudo apt-get install -y nodejs
 node --version
 npm --version
 ```
-### 1. Clone the Repository
+### 2. Clone the Repository
 ```bash
 git clone https://github.com/your-username/learn-react-from-scratch.git
 cd learn-react-from-scratch
 ```
 
-### 2. Set Up the Frontend (React)
+### 3. Set Up the Frontend (React)
 ```bash
 cd client
 npm install
@@ -56,7 +56,7 @@ npm run dev
 ```
 Open `http://localhost:5173` in your browser.
 
-### 3. Set Up Tailwind CSS
+### 4. Set Up Tailwind CSS
 Initialize Tailwind CSS:
 ```bash
 npx tailwindcss init -p
@@ -84,7 +84,7 @@ Update `src/index.css`:
 @tailwind utilities;
 ```
 
-### 4. (Optional) Set Up the Backend (Node.js)
+### 5. (Optional) Set Up the Backend (Node.js)
 ```bash
 cd server
 npm install
@@ -92,7 +92,7 @@ npm start
 ```
 The backend will run on `http://localhost:5000`.
 
-### 5. Dockerization
+### 6. Dockerization
 To run the app in a Docker container:
 ```bash
 docker build -t learn-react-app ./client

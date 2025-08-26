@@ -42,12 +42,10 @@ sudo apt-get install -y nodejs
 node --version
 npm --version
 ```
-### 2. Clone the Repository
-```bash
-git clone https://github.com/SumonPaul18/react-frontend.git
-cd react-frontend
+### 2. Default Initialize React App
 ```
-
+npm create vite@latest my-app -- --template react
+```
 ### 3. Set Up the Frontend (React)
 ```bash
 cd client
@@ -56,7 +54,12 @@ npm run dev
 ```
 Open `http://localhost:5173` in your browser.
 
-### 4. Set Up Tailwind CSS
+### 4. Clone the Repository
+```bash
+git clone https://github.com/SumonPaul18/react-frontend.git
+cd react-frontend
+```
+### 5. Set Up Tailwind CSS
 Initialize Tailwind CSS:
 ```bash
 npx tailwindcss init -p
@@ -84,7 +87,7 @@ Update `src/index.css`:
 @tailwind utilities;
 ```
 
-### 5. (Optional) Set Up the Backend (Node.js)
+### 6. (Optional) Set Up the Backend (Node.js)
 ```bash
 cd server
 npm install
@@ -92,7 +95,7 @@ npm start
 ```
 The backend will run on `http://localhost:5000`.
 
-### 6. Dockerization
+### 7. Dockerization
 To run the app in a Docker container:
 ```bash
 docker build -t learn-react-app ./client
